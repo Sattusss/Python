@@ -1,4 +1,3 @@
-from textwrap import fill
 from turtle import *
 import random
 speed('fastest')
