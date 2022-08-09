@@ -8,7 +8,7 @@ class Person:
     # raw repr of object
     def __repr__(self) -> str:
         return self.__str__()
-    # special function to overloading > symbol when used for object 
+    # special function to overloading > symbol when used for bject 
     def __gt__(self,other):
         return self.age > other.age
 
